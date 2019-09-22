@@ -1,6 +1,5 @@
 #lang racket
-(require pdf-read
-         racket/file)
+(require pdf-read)
 
 ;; convert day of month codes to two digits with leading 0
 (define (d->dd x)
